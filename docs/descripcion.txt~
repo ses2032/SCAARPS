@@ -16,24 +16,28 @@ Se desea brindar la posibilidad de automatizar y optimizar al máximo el sistema 
  
  Las PYMES cuentan con recursos humanos y de tiempo limitados. A cada recurso humano especializado en una tarea se lo llama "Especialista". 
  
+ Las PYMES cuentan con "Especialistas" (empleados) que realizan tareas para sus clientes.
  Los especialistas brindan una cantidad máxima de servicios al día (jornada). 
  
- Una empresa puede contar con varios especialistas sobre una misma especialidad e incluir varias especialidades en sus posibilidades de servicios.  
+Una empresa puede contar con varios especialistas sobre una misma especialidad e incluir varias especialidades en sus posibilidades de servicios.  Cada empleado de la empresa puede tener una o más especialidades.
  
- Cada jornada se divide en varios períodos de tiempo que llamaremos "Slots".
+Cada jornada se divide en varios períodos de tiempo que llamaremos "Slots".
  
- Cada slot puede tener asignados uno, varios o ningúna solicitud de servicio. 
+Cada slot puede tener asignados uno, varios o ningúna solicitud de servicio. 
  
- Se permitirá que un especialista esté asignado a dos solicitudes de servicios superpuestos en sus slots 
- de tiempo pero se remarcará al usuario del sistema sobre esta situación.
+Se permitirá que un especialista esté asignado a dos solicitudes de servicios superpuestos en un mismo slot de tiempo pero se remarcará al usuario del sistema sobre esta situación.
  
- Cada servicio puede demandar uno o varios slots y uno o varios especialistas para su "Prestación". 
+Cada servicio puede demandar uno o varios slots y uno o varios especialistas para su "Prestación". 
  
- Una "Prestación" es la ejecución del servicio debido a una "Solicitud de servicio" por parte del cliente.
- Las solicitudes de servicio pueden ser de dos tipos: Por única vez o periódicas (se ejecutarán repetidamente cada determinado tiempo o en días específicos de la semana, mes o año").
- Las solicitudes de servicio pueden anularse bajo determinadas condiciones, o por desición explícita del cliente o prestador.
- Las solicitudes de servicio son creada por el cliente y autorizadas por un responsable de la empresa prestadora.
- Las solicitudes pueden estar asociadas a una o varias ubicaciones y cada ubicación puede tener una caracterización asociada.
+Una "Prestación" es la ejecución del servicio debido a una "Solicitud de servicio" por parte del cliente.
+
+Las solicitudes de servicio pueden ser de dos tipos: Por única vez o periódicas (se ejecutarán repetidamente cada determinado tiempo o en días específicos de la semana, mes o año").
+
+Las solicitudes de servicio pueden anularse bajo determinadas condiciones, o por decisión explícita del cliente o prestador.
+
+Las solicitudes de servicio son creadas por el cliente y autorizadas por un responsable de la empresa prestadora.
+
+Las solicitudes pueden estar asociadas a una o varias ubicaciones y cada ubicación puede tener una caracterización asociada.
  Cuando se autoriza una solicitud de servicio se crea una "Orden de Servicio". Las prestaciones se realizarán únicamente si cuentan con una Orden de servicio que las avale.
  El sistema permitirá imprimir credenciales de identificación que indicarán la orden de servicio que autoriza la prestación. Esta credencial contará con un código de barras
  que permitirá la automatización de la identificación si así fuese necesario.
