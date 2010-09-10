@@ -1,0 +1,55 @@
+
+
+
+Este es el documento inicial donde se expresará la idea general del sistema.
+
+La idea principal del sistema es brindar una herramienta a las PYMES para la organización y administración de sus servicios y recursos.
+
+Las siglas SCAARPS significan Sistema de código abierto de administración de recursos y prestación de servicios.
+
+En general el sistema está pensado para las PYMES que brindan servicios  como por ejemplo consultorios médicos, pequeñas empresas de transporte, gimnasios, pero se puede ir adaptando a cualquier tipo de empresa en futuras versiones.
+
+Se desea brindar la posibilidad de automatizar y optimizar al máximo el sistema de asignación de recursos que estas empresas realizan, por ejemplo para un consultorio médico
+ se desea que los pacientes/clientes puedan gestionar automáticamente por internet sus consultas y turnos. 
+ 
+ A grandes rasgos el proceso sería así:
+ 
+ Las PYMES cuentan con recursos humanos y de tiempo limitados. A cada recurso humano especializado en una tarea se lo llama "Especialista". 
+ 
+ Los especialistas brindan una cantidad máxima de servicios al día (jornada). 
+ 
+ Una empresa puede contar con varios especialistas sobre una misma especialidad e incluir varias especialidades en sus posibilidades de servicios.  
+ 
+ Cada jornada se divide en varios períodos de tiempo que llamaremos "Slots".
+ 
+ Cada slot puede tener asignados uno, varios o ningúna solicitud de servicio. 
+ 
+ Se permitirá que un especialista esté asignado a dos solicitudes de servicios superpuestos en sus slots 
+ de tiempo pero se remarcará al usuario del sistema sobre esta situación.
+ 
+ Cada servicio puede demandar uno o varios slots y uno o varios especialistas para su "Prestación". 
+ 
+ Una "Prestación" es la ejecución del servicio debido a una "Solicitud de servicio" por parte del cliente.
+ Las solicitudes de servicio pueden ser de dos tipos: Por única vez o periódicas (se ejecutarán repetidamente cada determinado tiempo o en días específicos de la semana, mes o año").
+ Las solicitudes de servicio pueden anularse bajo determinadas condiciones, o por desición explícita del cliente o prestador.
+ Las solicitudes de servicio son creada por el cliente y autorizadas por un responsable de la empresa prestadora.
+ Las solicitudes pueden estar asociadas a una o varias ubicaciones y cada ubicación puede tener una caracterización asociada.
+ Cuando se autoriza una solicitud de servicio se crea una "Orden de Servicio". Las prestaciones se realizarán únicamente si cuentan con una Orden de servicio que las avale.
+ El sistema permitirá imprimir credenciales de identificación que indicarán la orden de servicio que autoriza la prestación. Esta credencial contará con un código de barras
+ que permitirá la automatización de la identificación si así fuese necesario.
+ 
+ Las ordenes de servicio podrán tenes diferentes nombres para los distintos tipos de solicitud de servicio, por jemplo para un cosultorio médico puede llamarse "Turno", para un transportista de pasajeros
+ puede llamarse "Pasaje". Estos nombres pueden ser configurados por cada empresa. Esto permitirá la adaptabilidad del sistema a los diferentes rubros.
+ 
+ Esta adaptabilidad también se facilitará por la asignación de nombres personalizados a los siguientes elementos:
+	Usuario (cliente)
+	Responsable ( para un médico puede ser "Secretaria/o" y para una empresa de instalaciones electricas puede ser "Capataz" )
+	Lugares de servicio (por ejemplo para un consultorio puede ser Sala y para un pasa de en combi puede ser "Origen" y "Destino")
+	
+
+Las prestaciones de servicio mueden postponerse en fecha y hora por solicitud del cliente o del prestador, además para ordenes de servicio periódicas se puede reprogramar alguna
+de las prestaciones puntuales.
+ 
+ 
+ 
+ 
